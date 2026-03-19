@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&family=Barlow:wght@300;400;500;600;700&display=swap");
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <title>Padrão Tático — Academia de Alto Rendimento</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23000'/><text x='50' y='62' text-anchor='middle' font-family='Arial Black,sans-serif' font-weight='900' font-size='38' fill='%237B4FFF'>PT</text></svg>" />
+  </head>
+  <body>
+    <div id="smooth-wrapper">
+      <div id="smooth-content">
+
+        <!-- CABECALHO -->
+        <header>
+          <svg class="logo-header" viewBox="0 0 160 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <text x="0" y="28" font-family="'Barlow Condensed', sans-serif" font-weight="800" font-size="30" fill="white" letter-spacing="1">PADRÃO</text>
+            <text x="88" y="28" font-family="'Barlow Condensed', sans-serif" font-weight="300" font-size="30" fill="#7B4FFF" letter-spacing="1">TÁTICO</text>
+          </svg>
+          <nav class="headerNav">
+            <ul>
+              <li><a href="#servicos">Serviços</a></li>
+              <li><a href="#atletas">Atletas</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <main>
+
+          <!-- HERO -->
+          <section class="hero">
+            <picture data-speed=".6">
+              <source media="(max-width: 600px)" srcset="imagens/hero-bg-mobile.webp" />
+              <video autoplay muted loop playsinline>
+              <source src="video-hero.mp4" type="video/mp4" /></video>
+            </picture>
+            <picture>
+              <source media="(max-width: 600px)" srcset="imagens/hero-overlay-mobile.webp" />
+              <img src="imagens/hero-overlay.webp" alt="" />
+            </picture>
+            <div class="esquerda">
+              <h3>ALTO RENDIMENTO</h3>
+              <h1>PADRÃO<br/>TÁTICO</h1>
+            </div>
+            <div class="direita">
+              <p class="textoSplit">
+                Desenvolvemos atletas de excelência com metodologia de treinamento técnico e tático de nível profissional.
+              </p>
+              <a href="https://wa.me/5511979932313?text=Olá,%20quero%20começar%20agora%20no%20Padrão%20Tático!" target="_blank" class="botaoPrincipal">
+                COMECE AGORA
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </section>
+
+          <!-- SECAO SOBRE NOS -->
+<!-- SECAO SOBRE NOS -->
+<section class="secaoSobre">
+  <div class="sobreEsquerda">
+    <span class="sobreTag">QUEM SOMOS</span>
+    <h2 class="textoSplit">FORMANDO ATLETAS.<br/>CONSTRUINDO<br/>CARREIRAS.</h2>
+    <div class="sobreLinha"></div>
+    <div class="sobreNumeros">
+      <div class="sobreNumero">
+        <strong>150<span>+</span></strong>
+        <p>Atletas formados</p>
+      </div>
+      <div class="sobreNumero">
+        <strong>8<span>+</span></strong>
+        <p>Anos de experiência</p>
+      </div>
+      <div class="sobreNumero">
+        <strong>3</strong>
+        <p>Categorias ativas</p>
+      </div>
+    </div>
+  </div>
+  <div class="sobreDireita">
+    <p class="textoSplit sobreTexto">
+      O Padrão Tático nasceu da visão de que todo atleta com dedicação merece acesso a uma metodologia de treinamento de nível profissional.
+    </p>
+    <p class="sobreTextoSecundario">
+      Nossa estrutura combina preparação técnica, física e tática em um programa completo e personalizado. Trabalhamos com atletas de todas as categorias — do sub-15 ao profissional — com foco em desenvolvimento real, não apenas resultados imediatos.
+    </p>
+    <p class="sobreTextoSecundario">
+      Cada detalhe do nosso método foi desenvolvido por profissionais com experiência em clubes de alto rendimento, garantindo que cada atleta evolua com base sólida e consistente.
+    </p>
+    <a href="#servicos" class="sobreLink">
+      CONHEÇA NOSSOS SERVIÇOS
+      <svg width="18" height="18" viewBox="0 0 20 20" fill="none"><path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </div>
+
+  <!-- IMAGEM DE FUNDO DA SECAO -->
+  <!-- Coloque o caminho da sua imagem aqui: imagens/bg-sobre.webp -->
+  <div class="sobreBg">
+    <img src="gol.jpg" alt="" />
+  </div>
+
+</section>
+
+          <div class="bgTreino">
+
+            <!-- SERVIÇOS -->
+            <section class="secaoCidade" id="servicos">
+              <div class="titulo">
+                <h2 class="textoSplit">NOSSOS SERVIÇOS</h2>
+                <button onclick="document.getElementById('contato').scrollIntoView({behavior:'smooth'})">
+                  FALE CONOSCO
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+              </div>
+              <div class="cards">
+
+                <div class="card card1">
+                  <div class="cardConteudo">
+                    <div class="cardIcone">
+                      <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#7B4FFF" stroke-width="1.5"/><path d="M8 12l2.5 2.5L16 9" stroke="#7B4FFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h3>Treinamento<br/>Técnico</h3>
+                    <p class="cardDesc">Domínio de bola, passes, dribles e finalizações. Técnicas individuais refinadas para elevar seu jogo ao próximo nível.</p>
+                    <span class="cardTag">INSCRIÇÕES ABERTAS →</span>
+                  </div>
+                </div>
+
+                <div class="card card2">
+                  <div class="cardConteudo">
+                    <div class="cardIcone">
+                      <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke="#7B4FFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h3>Preparação<br/>Física</h3>
+                    <p class="cardDesc">Força, velocidade, resistência e agilidade. Programa periodizado por especialistas para atletas de alto rendimento.</p>
+                    <span class="cardTag">INSCRIÇÕES ABERTAS →</span>
+                  </div>
+                </div>
+
+                <div class="card card3">
+                  <div class="cardConteudo">
+                    <div class="cardIcone">
+                      <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="2" stroke="#7B4FFF" stroke-width="1.5"/><path d="M3 9h18M9 21V9" stroke="#7B4FFF" stroke-width="1.5"/></svg>
+                    </div>
+                    <h3>Análise de<br/>Desempenho</h3>
+                    <p class="cardDesc">Vídeo análise tática individual e coletiva. Relatórios de performance para identificar pontos fortes e oportunidades de melhora.</p>
+                    <span class="cardTag">INSCRIÇÕES ABERTAS →</span>
+                  </div>
+                </div>
+
+                <div class="card card4">
+                  <div class="cardConteudo">
+                    <div class="cardIcone">
+                      <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="#7B4FFF" stroke-width="1.5" stroke-linecap="round"/><circle cx="9" cy="7" r="4" stroke="#7B4FFF" stroke-width="1.5"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke="#7B4FFF" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3>Desenvolvimento<br/>Tático</h3>
+                    <p class="cardDesc">Sistemas de jogo, posicionamento e leitura tática. Formação de atletas com visão estratégica dentro e fora do campo.</p>
+                    <span class="cardTag">INSCRIÇÕES ABERTAS →</span>
+                  </div>
+                </div>
+
+              </div>
+            </section>
+
+            <!-- ATLETAS -->
+            <section class="secaoDepoimentos" id="atletas">
+              <div class="atletasTitulo">
+                <h2 class="textoSplit">NOSSOS JOGADORES</h2>
+                <p>Conheça os atletas que fizaram parte do Padrão Tático</p>
+              </div>
+              <div class="depoimentos">
+
+                <div class="depoimento">
+                  <div class="atletaFoto">
+                    <img src="bruce.png" alt="Atleta 1" />
+                    <div class="atletaOverlay">
+                      <strong>Bruce alves</strong>
+                      <span>Zagueiro · categorias de base</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="depoimento">
+                  <div class="atletaFoto">
+                    <img src="ratinho.png" alt="Atleta 2" />
+                    <div class="atletaOverlay">
+                      <strong>Gustavo Lima</strong>
+                      <span>Meio Campo · Profissional
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="depoimento">
+                  <div class="atletaFoto">
+                    <img src="vicente.png" alt="Atleta 3" />
+                    <div class="atletaOverlay">
+                      <strong>Vicente Garcia</strong>
+                      <span>Lateral esquerdo · Categorias de base</span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </section>
+
+          </div>
+
+          <!-- CONTATO / CTA -->
+          <section class="secaoObrigado" id="contato">
+  <div class="ctaEsquerda">
+    <h2 class="textoSplit">PRONTO PARA EVOLUIR?</h2>
+    <p class="ctaDesc">Entre em contato e dê o próximo passo na sua carreira esportiva.</p>
+    <div class="ctaBotoes">
+      <a href="https://wa.me/55SEUNUMEROQUI?text=Olá,%20quero%20começar%20agora%20no%20Padrão%20Tático!" target="_blank" class="ctaBotaoWhats">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M20.52 3.48A11.95 11.95 0 0 0 12 0C5.37 0 0 5.37 0 12c0 2.11.55 4.16 1.6 5.97L0 24l6.22-1.57A11.94 11.94 0 0 0 12 24c6.63 0 12-5.37 12-12 0-3.2-1.25-6.22-3.48-8.52zM12 22c-1.85 0-3.67-.5-5.25-1.44l-.38-.22-3.93.99 1.03-3.82-.25-.4A9.94 9.94 0 0 1 2 12C2 6.48 6.48 2 12 2c2.67 0 5.18 1.04 7.07 2.93A9.94 9.94 0 0 1 22 12c0 5.52-4.48 10-10 10zm5.5-7.5c-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.68.15s-.78.97-.95 1.17c-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.49-.9-.8-1.5-1.78-1.68-2.08-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.68-1.63-.93-2.23-.24-.58-.49-.5-.68-.51H7.5c-.2 0-.52.07-.79.37S5.5 8.5 5.5 9.97s1.05 2.87 1.2 3.07c.14.2 2.07 3.16 5.01 4.43.7.3 1.25.48 1.67.61.7.22 1.34.19 1.84.12.56-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.19-.57-.34z" fill="currentColor"/></svg>
+        FALAR NO WHATSAPP
+      </a>
+      <a href="https://www.instagram.com/SEUPERFIL" target="_blank" class="ctaBotaoInsta">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+        VER INSTAGRAM
+      </a>
+    </div>
+  </div>
+
+  <div class="ctaDireita">
+    <div class="fifaCard">
+
+      <!-- TOPO DO CARD -->
+      <div class="fifaCardTopo">
+        <div class="fifaRating">
+          <span class="fifaNum">PT</span>
+          <span class="fifaPos">SEU</span>
+          <span class="fifaPosSub">NÍVEL</span>
+          <!-- Bandeira Brasil -->
+          <span class="fifaBandeira">🇧🇷</span>
+        </div>
+        <!-- Silhueta jogador -->
+        <div class="fifaSilhueta">
+          <svg viewBox="0 0 120 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- sombra/reflexo embaixo -->
+            <ellipse cx="60" cy="134" rx="38" ry="6" fill="rgba(123,79,255,0.18)"/>
+            <!-- corpo -->
+            <path d="M30 140 C30 110 20 95 24 78 C28 62 38 58 60 58 C82 58 92 62 96 78 C100 95 90 110 90 140Z" fill="#1a1a2e"/>
+            <!-- cabeça -->
+            <circle cx="60" cy="38" r="24" fill="#1a1a2e"/>
+            <!-- pescoço -->
+            <rect x="52" y="58" width="16" height="10" fill="#1a1a2e"/>
+          </svg>
+        </div>
+      </div>
+
+      <!-- NOME -->
+      <div class="fifaNome">
+        <h3>SEU NOME</h3>
+        <span>PADRÃO TÁTICO</span>
+      </div>
+
+      <!-- STATS -->
+      <div class="fifaStats">
+        <div class="fifaStatCol">
+          <div class="fifaStat">
+            <strong>00</strong><span>TÉCNICA</span>
+          </div>
+          <div class="fifaStat">
+            <strong>00</strong><span>FÍSICO</span>
+          </div>
+          <div class="fifaStat">
+            <strong>00</strong><span>TÁTICA</span>
+          </div>
+        </div>
+        <div class="fifaStatCol">
+          <div class="fifaStat">
+            <strong>00</strong><span>VELOCIDADE</span>
+          </div>
+          <div class="fifaStat">
+            <strong>00</strong><span>VISÃO</span>
+          </div>
+          <div class="fifaStat">
+            <strong>00</strong><span>POTENCIAL</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- RODAPE CARD -->
+      <div class="fifaRodape">
+        <span>PADRÃO TÁTICO</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+        </main>
+
+        <!-- FOOTER -->
+<footer>
+  <div class="conteudoFooter">
+    <div class="logoFooter">
+      <h3>ACADEMIA DE</h3>
+      <h2>PADRÃO<br/>TÁTICO</h2>
+    </div>
+    <div class="secoesFooter">
+
+      <div class="social">
+        <h3>REDES SOCIAIS</h3>
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/padrao_tatico" target="_blank" aria-label="Instagram">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="white" stroke-width="1.5"/><circle cx="12" cy="12" r="4.5" stroke="white" stroke-width="1.5"/><circle cx="17.5" cy="6.5" r="1" fill="white"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="YouTube">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><rect x="2" y="5" width="20" height="14" rx="4" stroke="white" stroke-width="1.5"/><path d="M10 9l5 3-5 3V9z" fill="white"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="TikTok">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="parceiro">
+        <h3>PARCEIRO</h3>
+        <div class="parceiroHope">
+          <div class="hopeLogo">
+            <!-- Coloque a logo da CFA Hope aqui: imagens/logo-hope.png -->
+            <img src="Gemini_Generated_Image_7wqv6k7wqv6k7wqv.png" alt="CFA Hope" class="logoHope" />
+          </div>
+          <span class="parceiroNome">CFA HOPE</span>
+        </div>
+      </div>
+
+      <div class="institucional">
+        <h3>INSTITUCIONAL</h3>
+        <nav>
+          <ul>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#">Imprensa</a></li>
+            <li><a href="#">Parcerias</a></li>
+            <li><a href="#">Influenciadores</a></li>
+          </ul>
+        </nav>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="textoInfinito">
+    <h3>PADRÃO TÁTICO</h3>
+    <h3>PADRÃO TÁTICO</h3>
+    <h3>PADRÃO TÁTICO</h3>
+    <h3>PADRÃO TÁTICO</h3>
+  </div>
+</footer>
+
+      </div>
+    </div>
+
+<div id="preloader">
+  <div class="preloaderConteudo">
+    <svg class="preloader-logo" viewBox="0 0 260 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <text x="0" y="52" font-family="'Arial Black', sans-serif" font-weight="900" font-size="46" fill="none"
+    stroke="#7B4FFF" stroke-width="1.5"
+    stroke-dasharray="600" stroke-dashoffset="600"
+    id="preloaderTexto">PADRÃO</text>
+</svg>
+    <svg class="preloader-logo preloader-sub" viewBox="0 0 160 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <text x="0" y="32" font-family="'Arial Black', sans-serif" font-weight="300" font-size="36" fill="none"
+        stroke="rgba(123,79,255,0.5)" stroke-width="1"
+        stroke-dasharray="400" stroke-dashoffset="400"
+        id="preloaderSub">TÁTICO</text>
+    </svg>
+    <div class="preloaderLinha">
+      <div class="preloaderLinhaInner"></div>
+    </div>
+  </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/ScrollSmoother.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/SplitText.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
